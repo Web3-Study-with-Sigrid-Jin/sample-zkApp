@@ -1,0 +1,11 @@
+{
+  "name": "sample-zkApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Web3-Study-with-Sigrid-Jin/sample-zkApp.git",
+  "author": "Jin Hyung Park \"Sigrid Jin\" <sigrid.jinhyung@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "circomlib": "^2.0.5"
+  }
+}
