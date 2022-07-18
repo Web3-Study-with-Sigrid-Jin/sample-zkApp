@@ -1,0 +1,12 @@
+{
+  "selectedChain": "3",
+  "3": {
+    "chainId": "3",
+    "chainName": "Ethereum Ropsten Network",
+    "rpcUrls": ["https://ethereum-ropsten-rpc.allthatnode.com"],
+    "nativeCurrency": {
+      "symbol": "ETH"
+    },
+    "blockExplorerUrls": []
+  }
+}

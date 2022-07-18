@@ -1,0 +1,26 @@
+{
+  "name": "zksudoku-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "ethers": "^5.6.9",
+    "next": "12.2.2",
+    "postcss": "^8.4.14",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "snarkjs": "^0.4.22",
+    "tailwindcss": "^3.1.6",
+    "wagmi": "^0.5.9"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2"
+  }
+}
