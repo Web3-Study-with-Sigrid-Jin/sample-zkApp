@@ -6,7 +6,15 @@ const nextConfig = {
       config.resolve.fallback.fs = false;
     }
     // The config.experiments = { asyncWebAssembly: true }; line is for using wasm files.
-    config.experiments = { asyncWebAssembly: true };
+    config.experiments = {
+      asyncWebAssembly: true,
+      buildHttp: true,
+      layers: true,
+      lazyCompilation: true,
+      outputModule: true,
+      syncWebAssembly: true,
+      topLevelAwait: true,
+    };
     return config;
   },
 };
