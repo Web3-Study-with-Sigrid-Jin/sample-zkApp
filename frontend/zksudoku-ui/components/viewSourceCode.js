@@ -1,4 +1,5 @@
-const GITHUB_LINK = "https://github.com/vplasencia/zkSudoku";
+// const THANKS_TO_GITHUB_LINK = "https://github.com/vplasencia/zkSudoku";
+const GITHUB_LINK="https://github.com/Web3-Study-with-Sigrid-Jin/sample-zkApp"
 
 export default function ViewSourceCode() {
   return (
