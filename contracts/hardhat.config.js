@@ -12,5 +12,11 @@ module.exports = {
         runs: 200
       }
     }
-  }
+  },
+  networks: {
+    ropsten_allthatnode: {
+      url: "https://ethereum-ropsten-rpc.allthatnode.com/" + process.env.ATN_PRIVATEKEY,
+      accounts: [process.env.PRIVATE_KEY],
+    },
+  },
 };
